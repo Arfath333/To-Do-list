@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(90deg, red, blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 100px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(16, 16, 88);
+}
+
+#app {
+    width: 500px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.bottom {
+    position: relative;
+}
+input{
+    padding: 15px 280px 15px 20px;
+    margin:  5px 0px;
+    border-radius: 30px;
+    border: none;
+    background-color: lightgray;
+}
+#addTaskBtn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    position: absolute;
+    right: 16px;
+    top: 6px;
+    cursor: pointer;
+} 
+#taskList {
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+.task {
+    padding: 10px 20px;
+    margin: 5px 0px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.deleteBtn {
+    background-color: #f4f4f4;
+    color: #ff4d4d;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
