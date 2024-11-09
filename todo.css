@@ -72,6 +72,10 @@
         cursor: pointer;
         font-size: 1rem;
     }
+    .task.completed {
+        text-decoration: line-through;
+        color: grey;
+    }
     @media screen and (min-width:768px) {
 body {
     background-image: linear-gradient(90deg, red, blue);

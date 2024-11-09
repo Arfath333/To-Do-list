@@ -28,6 +28,14 @@ function addTask() {
     const deleteBtn = taskItem.querySelector('.deleteBtn')
     deleteBtn.addEventListener('click', deleteTask)
 }
+function toggleComplete(event) {
+    if (event.target.tagName === "button") {
+        return;
+    }
+    console.log('this', this.classList.toggle);
+
+    this.classList.toggle('completed')
+}
 
 function deleteTask (event) {
     event.stopPropagation();
